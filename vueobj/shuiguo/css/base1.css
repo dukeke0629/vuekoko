@@ -1,0 +1,150 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+li,
+ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+li,
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: 0;
+    border: none;
+    width: 100%;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #333;
+}
+
+a {
+    color: #333;
+}
+
+.cl {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+.fr{float: right;}
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+section {
+    display: block;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none
+}
+
+.am-slider-a1 .am-control-nav li a.am-active {
+    background-color: #2ad2c9;
+    cursor: default;
+}
+
+ .m-user-avatar>.avatarPic {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.95);
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.m-user-avatar>.avatarPic>img {
+    width: 80px;
+    height: 80px;
+} 
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.j-nav .logo a,
+.j-nav .shopping-cart a,
+.j-hint,
+.j-nav .city a,
+#meal .j-nav .logo a,
+.count_down .clock,
+.meal_text .meal_price i.meal_join,
+#user-b .j-nav .logo a,
+.invite-logo,
+.pay-manner::before,
+.groups-avata-img ul.colonel::before,
+.win-icon::before {
+    background: transparent url("../images/home.png") no-repeat scroll;
+}
+
+
