@@ -17,7 +17,7 @@
       </ul>
     </div>
     <tuan></tuan>
-</div>
+</div> 
 </template>
 <script>
 import func from './func';

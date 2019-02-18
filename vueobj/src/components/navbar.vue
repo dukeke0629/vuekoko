@@ -10,9 +10,6 @@
     </nav>
 
 </template>
-<script  scoped>
-</script>
-
 <style scoped>
 
 .navbar {
